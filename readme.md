@@ -1,6 +1,6 @@
 # Projeto La La Land
 
-Este projeto foi desenvolvido como forma de praticar o conhecimento das tecnologias Node, Javascript, SASS, entre outras; para criar uma página web elegante e responsiva para o filme La La Land.
+Este projeto foi desenvolvido para criar uma página web elegante e responsiva para o filme La La Land, com o intuito de aprimorar o conhecimento técnico adquirido em FullStack Javascript/Node.
 
 ## Índice
 
@@ -10,23 +10,22 @@ Este projeto foi desenvolvido como forma de praticar o conhecimento das tecnolog
 
 ## Descrição
 
-O projeto **La La Land** é uma página web desenvolvida para exibir informações sobre o filme La La Land, incluindo sinopse, críticas e detalhes adicionais.<br></br>
-A página foi projetada para ser responsiva e funcionar em várias resoluções de tela.
+O projeto **La La Land** é uma página web desenvolvida para exibir informações sobre o filme La La Land, incluindo sinopse, críticas e detalhes adicionais. A página foi projetada para ser responsiva e funcionar em várias resoluções de tela.
 
 ## Funcionalidades
 
-- **Exibição de uma imagem hero** com descrição do filme.
+- **Exibição de uma imagem de herói** com descrição do filme.
 - **Seção de sinopse do filme**.
-- **Seção shows com botões com links para informações adicionais**.
-- **Seção de críticas** com citações de fontes.
-- **Seção para displays disponíveis** para visualizar o filme.
-- **Seção footer** com direitos, linguagens, etc.
+- **Botões com links para informações adicionais**.
+- **Seção de críticas** com citações de fontes renomadas.
 - **Layout responsivo** que se adapta a diferentes tamanhos de tela.
+- **Seção de displays disponíveis** para o usuário assistir.
+- **Seção Footer** contendo direitos autorais.
 
 ## Tecnologias Utilizadas
 
-- *HTML5*
-- *CSS3 (SCSS)*
+- *HTML*
+- *CSS*
 - *JavaScript*
 - *Node*
 - *Gulp*
