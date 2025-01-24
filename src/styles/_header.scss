@@ -37,8 +37,8 @@
         transition: opacity .5s ease;
 
         @media (max-width: 768px) {
-            max-width: 200px;
-            width: 25.6vw;
+            max-width: 80px;
+            width: 15.6vw;
         }
     }
 
@@ -53,11 +53,11 @@
     }
 
     .button {
-        height: 50px;
+        height: 45px;
 
         @media (max-width: 768px) {
             font-size: 13px;
-            padding: 8px 11px;
+            padding: 6px 9px;
             height: 40px;
             letter-spacing: 0;
         }
