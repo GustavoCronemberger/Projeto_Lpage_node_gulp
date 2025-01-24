@@ -4,11 +4,11 @@
 .hero {
     padding: 5.6vh;
     min-height: 80vh;
-    background-image: url(../images/hero.jpg);
+    background-color: variables.$corDeFundo;
     text-align: center;
 
     @media (max-width: 768px) {
-        background-image: url(../images/hero.jpg);
+        background-image: url(../images/hero2.jpg);
         padding-top: calc(50vw + 25px);
         margin-bottom: 8px;
         background-size: contain;
@@ -22,27 +22,47 @@
     }
 
     &__content {
-        max-width: 640px;
 
-        &__branding {
-            max-width: 320px;
-            margin: 0 auto 38px;
+        h3 {
+            margin-top: 24px;
+        }
+        
+        img {
+            max-width: 100%;
 
             @media (max-width: 768px) {
-                max-width: 180px;
+                display: none;
             }
         }
+
+        &__sinopse {
+                max-width: 80%;
+                margin: 0 auto;
+                text-align: center;
+
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__branding {
+        }
+        // max-width: 640px;
+        // margin: 0 auto 38px;
+
+        // &__branding {
+
+        //     max-width: 320px;
+        //     margin: 0 auto 38px;
+
+        //     @media (max-width: 768px) {
+        //         max-width: 180px;
+        //     }
+        // }
 
         .title--small {
             margin-bottom: 64px;
-        }
-
-        p {
-            margin-bottom: 20px;
-
-            &:last-child {
-                margin-top: 60px;
-            }
         }
 
         &__combos {
